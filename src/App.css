@@ -3,19 +3,6 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.App {
-  /* text-align: center; */
-
-}
-.todos {
-  /* text-align: center; */
-/* position:fixed; */
-  /* top:400px; */
-  /* left:550px; */
-  /* font-size: 30px; */
-}
-
-
 
 .App-header {
   background-color: #282c34;
@@ -79,8 +66,6 @@ a{
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  text-align: center;
-  line-height: 80px;
   font-size: 28px;
   font-weight: bold;
   color: #f1f1f1;
