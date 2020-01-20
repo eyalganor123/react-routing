@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class MyGallery extends React.Component{
+class MyGallery extends Component{
   constructor(props){
     super(props);
     this.state={

@@ -33,7 +33,9 @@ class Todos extends Component {
     deleteNote(index) {
       let notesArr = this.state.notes;
       notesArr.splice(index, 1);
-      this.setState({notes: notesArr})
+      this.setState({notes: notesArr});
+      this.textInput.focus();
+
     }
   
     render() {
@@ -54,8 +56,8 @@ class Todos extends Component {
           value={this.state.noteText}
           onChange={noteText => this.updateNoteText(noteText)}
           onKeyPress={this.handleKeyPress.bind(this)}
-          placeholder='todos' 
-          autoFocus='true'
+          placeholder='Enter your task' 
+          autoFocus={true}
           />
   
   
